@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* custom utilities */
+@layer utilities {
+  .glass {
+    @apply bg-white/70 backdrop-blur-md;
+  }
+}
